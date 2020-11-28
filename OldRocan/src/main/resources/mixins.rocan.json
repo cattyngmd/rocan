@@ -1,0 +1,18 @@
+{
+	"required"           : true,
+	"compatibilityLevel" : "JAVA_8",
+	"package"            : "rina.rocan.mixin.mixins",
+	"refmap"             : "mixins.rocan.refmap.json",
+	"mixins"             : [
+		"RocanMixinRenderLivingBase",
+		"RocanMixinNetworkManager",
+		"RocanMixinEntityPlayerSP",
+		"RocanMixinRenderManager",
+		"RocanMixinEntityPlayer",
+		"RocanMixinRenderEntity",
+		"RocanMixinRenderItem",
+		"RocanMixinMinecraft",
+		"RocanMixinRender",
+		"RocanMixinEntity"
+	]
+}
